@@ -25,7 +25,7 @@ Step 1:
   I created the Domain Controller VM named "DC-1" with Windows Server 2022. I took note of the Resource Group and Virtual Network (Vnet) generated during this step, and I ensured that the Domain Controller's NIC Private IP address was set to static for stability. 
 
 <p>
-<img src="https://i.imgur.com/0rnWYGE.png" height="50%" width="50%" alt="Disk Sanitization Steps"/> <img src="https://i.imgur.com/r5OcCH1.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/0rnWYGE.png" height="45%" width="45%" alt="Disk Sanitization Steps"/> <img src="https://i.imgur.com/r5OcCH1.png" height="45%" width="45%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -47,7 +47,7 @@ Step 2:
 Step 4: 
   I logged into DC-1 and installed Active Directory Domain Services. Then, I promoted it as a Domain Controller, setting up a new forest named "domain.com". After restarting, I logged back into DC-1 as the user "domain.com\login".
   <p>
-<img src="https://i.imgur.com/4GvpHpp.png" height="50%" width="50%" alt="Disk Sanitization Steps"/> <img src="https://imgur.com/3hgLuj1.png" height="50%" width="50%" alt="Disk Sanitization Steps"/> 
+<img src="https://i.imgur.com/4GvpHpp.png" height="45%" width="45%" alt="Disk Sanitization Steps"/> <img src="https://imgur.com/3hgLuj1.png" height="50%" width="50%" alt="Disk Sanitization Steps"/> 
 </p>
 
 
